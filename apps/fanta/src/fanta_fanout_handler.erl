@@ -5,7 +5,7 @@
   init/2
 ]).
 
-init(Req0 = #{method := <<"GET">>}, State) ->
+init(Req0 = #{method := <<"POST">>}, State) ->
   Req = case cowboy_req:has_body(Req0) of
     true ->
       {ok, Data, Req1} = cowboy_req:read_body(
