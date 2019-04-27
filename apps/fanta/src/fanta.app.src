@@ -1,0 +1,21 @@
+{application, fanta,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {fanta_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    cowboy,
+    crypto,
+    public_key,
+    ssl,
+    hackney,
+    jsone
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, []},
+  {links, []}
+ ]}.

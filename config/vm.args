@@ -1,0 +1,11 @@
+-sname fanta
+
+-setcookie fanta_cookie
+
++K true
++A30
+
++P 2097152
++Q 1048576
++scl false
++sfwi 500

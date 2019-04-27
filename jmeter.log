@@ -1,0 +1,188 @@
+2019-04-05 20:26:37,389 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2019-04-05 20:26:37,416 INFO o.a.j.JMeter: Loading user properties from: /Users/sasan.hezarkhani/Downloads/apache-jmeter-5.1.1/bin/user.properties
+2019-04-05 20:26:37,416 INFO o.a.j.JMeter: Loading system properties from: /Users/sasan.hezarkhani/Downloads/apache-jmeter-5.1.1/bin/system.properties
+2019-04-05 20:26:37,421 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2019-04-05 20:26:37,421 INFO o.a.j.JMeter: Version 5.1.1 r1855137
+2019-04-05 20:26:37,421 INFO o.a.j.JMeter: java.version=11.0.2
+2019-04-05 20:26:37,421 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2019-04-05 20:26:37,421 INFO o.a.j.JMeter: os.name=Mac OS X
+2019-04-05 20:26:37,421 INFO o.a.j.JMeter: os.arch=x86_64
+2019-04-05 20:26:37,421 INFO o.a.j.JMeter: os.version=10.14.3
+2019-04-05 20:26:37,421 INFO o.a.j.JMeter: file.encoding=UTF-8
+2019-04-05 20:26:37,421 INFO o.a.j.JMeter: java.awt.headless=true
+2019-04-05 20:26:37,422 INFO o.a.j.JMeter: Max memory     =1073741824
+2019-04-05 20:26:37,422 INFO o.a.j.JMeter: Available Processors =8
+2019-04-05 20:26:37,429 INFO o.a.j.JMeter: Default Locale=English (EN)
+2019-04-05 20:26:37,429 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2019-04-05 20:26:37,430 INFO o.a.j.JMeter: JMeterHome=/Users/sasan.hezarkhani/Downloads/apache-jmeter-5.1.1
+2019-04-05 20:26:37,430 INFO o.a.j.JMeter: user.dir  =/Users/sasan.hezarkhani/MyWork/fanta
+2019-04-05 20:26:37,430 INFO o.a.j.JMeter: PWD       =/Users/sasan.hezarkhani/MyWork/fanta
+2019-04-05 20:26:37,431 INFO o.a.j.JMeter: IP: 192.168.0.169 Name: Sasans-MBP.lan FullName: sasans-mbp.lan
+2019-04-05 20:26:37,434 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/Users/sasan.hezarkhani/MyWork/fanta/loadtest'
+2019-04-05 20:26:37,436 INFO o.a.j.s.FileServer: Default base='/Users/sasan.hezarkhani/MyWork/fanta'
+2019-04-05 20:26:37,437 INFO o.a.j.s.FileServer: Set new base='/Users/sasan.hezarkhani/MyWork/fanta'
+2019-04-05 20:26:37,571 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2019-04-05 20:26:37,590 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2019-04-05 20:26:37,592 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2019-04-05 20:26:37,595 INFO o.a.j.s.SaveService: Loading file: load.jmx
+2019-04-05 20:26:37,643 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-04-05 20:26:37,643 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-04-05 20:26:37,643 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-04-05 20:26:37,643 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-04-05 20:26:37,643 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2019-04-05 20:26:37,643 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2019-04-05 20:26:37,674 INFO o.a.j.JMeter: Creating summariser <summary>
+2019-04-05 20:26:37,678 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2019-04-05 20:26:37,678 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: load.jtl
+2019-04-05 20:26:37,678 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /Users/sasan.hezarkhani/Downloads/apache-jmeter-5.1.1/bin/reportgenerator.properties
+2019-04-05 20:26:37,679 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2019-04-05 20:26:37,683 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2019-04-05 20:26:37,685 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2019-04-05 20:26:37,686 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction : {} is empty, not APDEX per transaction customization
+2019-04-05 20:26:37,686 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2019-04-05 20:26:37,686 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2019-04-05 20:26:37,686 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2019-04-05 20:26:37,686 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2019-04-05 20:26:37,686 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2019-04-05 20:26:37,691 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2019-04-05 20:26:37,696 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2019-04-05 20:26:37,696 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2019-04-05 20:26:37,696 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2019-04-05 20:26:37,697 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2019-04-05 20:26:37,697 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2019-04-05 20:26:37,697 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2019-04-05 20:26:37,697 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2019-04-05 20:26:37,697 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2019-04-05 20:26:37,698 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2019-04-05 20:26:37,698 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2019-04-05 20:26:37,699 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2019-04-05 20:26:37,699 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2019-04-05 20:26:37,699 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2019-04-05 20:26:37,700 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2019-04-05 20:26:37,700 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2019-04-05 20:26:37,700 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2019-04-05 20:26:37,705 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-04-05 20:26:37,709 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-04-05 20:26:37,709 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-04-05 20:26:37,717 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2019-04-05 20:26:37,718 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2019-04-05 20:26:37,986 INFO o.a.j.JMeter: Running test (1554521197986)
+2019-04-05 20:26:38,001 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2019-04-05 20:26:38,002 INFO o.a.j.e.StandardJMeterEngine: Starting 100 threads for group Thread Group.
+2019-04-05 20:26:38,002 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-04-05 20:26:38,002 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=100 ramp-up=1 delayedStart=false
+2019-04-05 20:26:38,011 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2019-04-05 20:26:38,018 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2019-04-05 20:26:38,025 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2019-04-05 20:26:38,033 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = Sasans-MBP.lan
+2019-04-05 20:26:38,035 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2019-04-05 20:26:38,038 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-04-05 20:26:38,039 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-04-05 20:26:38,040 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2019-04-05 20:26:38,042 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2019-04-05 20:26:38,042 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2019-04-05 20:26:38,042 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2019-04-05 20:26:38,042 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2019-04-05 20:26:38,045 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2019-04-05 20:26:38,054 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2019-04-05 20:26:38,063 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2019-04-05 20:26:38,077 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2019-04-05 20:26:38,089 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2019-04-05 20:26:38,093 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2019-04-05 20:26:38,106 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-11
+2019-04-05 20:26:38,113 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-12
+2019-04-05 20:26:38,123 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-13
+2019-04-05 20:26:38,136 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-14
+2019-04-05 20:26:38,146 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-15
+2019-04-05 20:26:38,155 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-16
+2019-04-05 20:26:38,163 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-17
+2019-04-05 20:26:38,174 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-18
+2019-04-05 20:26:38,186 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-19
+2019-04-05 20:26:38,196 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-20
+2019-04-05 20:26:38,204 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-21
+2019-04-05 20:26:38,213 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-22
+2019-04-05 20:26:38,224 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-23
+2019-04-05 20:26:38,232 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-24
+2019-04-05 20:26:38,243 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2019-04-05 20:26:38,243 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2019-04-05 20:26:38,243 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-25
+2019-04-05 20:26:38,255 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-26
+2019-04-05 20:26:38,263 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-27
+2019-04-05 20:26:38,273 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-28
+2019-04-05 20:26:38,287 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-29
+2019-04-05 20:26:38,293 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-30
+2019-04-05 20:26:38,305 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-31
+2019-04-05 20:26:38,313 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-32
+2019-04-05 20:26:38,322 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-33
+2019-04-05 20:26:38,332 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-34
+2019-04-05 20:26:38,347 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-35
+2019-04-05 20:26:38,353 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-36
+2019-04-05 20:26:38,363 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-37
+2019-04-05 20:26:38,374 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-38
+2019-04-05 20:26:38,383 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-39
+2019-04-05 20:26:38,398 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-40
+2019-04-05 20:26:38,403 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-41
+2019-04-05 20:26:38,415 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-42
+2019-04-05 20:26:38,424 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-43
+2019-04-05 20:26:38,433 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-44
+2019-04-05 20:26:38,446 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-45
+2019-04-05 20:26:38,456 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-46
+2019-04-05 20:26:38,463 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-47
+2019-04-05 20:26:38,475 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-48
+2019-04-05 20:26:38,483 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-49
+2019-04-05 20:26:38,497 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-50
+2019-04-05 20:26:38,505 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-51
+2019-04-05 20:26:38,516 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-52
+2019-04-05 20:26:38,525 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-53
+2019-04-05 20:26:38,534 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-54
+2019-04-05 20:26:38,547 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-55
+2019-04-05 20:26:38,554 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-56
+2019-04-05 20:26:38,563 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-57
+2019-04-05 20:26:38,578 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-58
+2019-04-05 20:26:38,584 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-59
+2019-04-05 20:26:38,593 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-60
+2019-04-05 20:26:38,602 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-61
+2019-04-05 20:26:38,613 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-62
+2019-04-05 20:26:38,625 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-63
+2019-04-05 20:26:38,634 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-64
+2019-04-05 20:26:38,643 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-65
+2019-04-05 20:26:38,653 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-66
+2019-04-05 20:26:38,663 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-67
+2019-04-05 20:26:38,672 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-68
+2019-04-05 20:26:38,682 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-69
+2019-04-05 20:26:38,693 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-70
+2019-04-05 20:26:38,705 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-71
+2019-04-05 20:26:38,717 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-72
+2019-04-05 20:26:38,722 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-73
+2019-04-05 20:26:38,736 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-74
+2019-04-05 20:26:38,746 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-75
+2019-04-05 20:26:38,753 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-76
+2019-04-05 20:26:38,764 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-77
+2019-04-05 20:26:38,772 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-78
+2019-04-05 20:26:38,783 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-79
+2019-04-05 20:26:38,798 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-80
+2019-04-05 20:26:38,805 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-81
+2019-04-05 20:26:38,817 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-82
+2019-04-05 20:26:38,822 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-83
+2019-04-05 20:26:38,834 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-84
+2019-04-05 20:26:38,843 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-85
+2019-04-05 20:26:38,855 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-86
+2019-04-05 20:26:38,865 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-87
+2019-04-05 20:26:38,878 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-88
+2019-04-05 20:26:38,883 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-89
+2019-04-05 20:26:38,896 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-90
+2019-04-05 20:26:38,903 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-91
+2019-04-05 20:26:38,914 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-92
+2019-04-05 20:26:38,924 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-93
+2019-04-05 20:26:38,933 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-94
+2019-04-05 20:26:38,943 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-95
+2019-04-05 20:26:38,953 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-96
+2019-04-05 20:26:38,963 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-97
+2019-04-05 20:26:38,972 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-98
+2019-04-05 20:26:38,986 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-99
+2019-04-05 20:26:38,993 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-100
+2019-04-05 20:27:01,431 INFO o.a.j.r.Summariser: summary +  17519 in 00:00:23 =  747.3/s Avg:   119 Min:     1 Max:  2116 Err:  1251 (7.14%) Active: 100 Started: 100 Finished: 0
+2019-04-05 20:27:30,001 INFO o.a.j.r.Summariser: summary +  15719 in 00:00:29 =  550.2/s Avg:   193 Min:     5 Max: 13878 Err:  2673 (17.00%) Active: 100 Started: 100 Finished: 0
+2019-04-05 20:27:30,007 INFO o.a.j.r.Summariser: summary =  33238 in 00:00:52 =  639.0/s Avg:   154 Min:     1 Max: 13878 Err:  3924 (11.81%)
+2019-04-05 20:27:31,635 INFO o.a.j.r.ResultCollector: Shutdown hook started
+2019-04-05 20:27:31,636 INFO o.a.j.r.ResultCollector: Shutdown hook ended
